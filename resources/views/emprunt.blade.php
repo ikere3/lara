@@ -7,12 +7,6 @@
     <title></title>
 </head>
 <body>
-
-
-
-
-
-    
 <form id="emprunt-form" action="" method="post" enctype="multipart/form-data"  role="form">
         {{csrf_field()}}
   <div class="row">

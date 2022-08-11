@@ -39,48 +39,6 @@
         </div>
     </div>
 </div>
-
-<br>
-<!-- Mon test -->
-<center><h2>Test</h2></center>
-<br>
-
-<!-- <form id="emprunt-form" action="" method="POST" enctype="multipart/form-data"  role="form">
-        {{csrf_field()}}
-  <div class="row">
-     <div class="col-md-6">
-
-    <label for="adherent" class="form-label taille-label couleu">Adherent</label>
-    <input type="text" name="adherent" class="form-control" id="adherent">
-  </div>
-  <div class="col-md-6">
-
-<label for="id_livre" class="form-label taille-label couleu">Id Livre</label>
-
-<select class="form-control" id="id_livre" name="id_livre">
-
-@foreach(App\Models\Livre::all() as $livre)
-
-<option value="{{ $livre->id }}">{{ $livre->id }}</option>
-
-@endforeach
-
-</select>
-</div>
- 
-  <div class="col">
-  <br>
-  <br>
-  <button type="submit" class="btn orange">Enregistrer</button>
-  </div>
-</form> -->
-
-
-
-
-
-
-
 @endsection
 
 @push('scripts')
